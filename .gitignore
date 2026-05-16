@@ -1,0 +1,31 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+tflite-env/
+
+# Output videos
+output/*.mp4
+
+# Uploaded temporary files
+uploads/*
+
+# YOLO weights (optional)
+*.pt
+*.onnx
+*.tflite
+
+# VS Code
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# rclone config (IMPORTANT)
+.rclone.conf
